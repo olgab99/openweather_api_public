@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="weather.js"></script>
+    <style>
+        .padd {
+            padding: 10px;
+        }
+        #result p {
+            font-size: 11pt;
+        }
+        .withborder {
+            border-radius: 5px;
+            border: 2px solid #2e6da4;
+            padding: 20px;
+            float: left;
+            margin: 20px;
+        }
+        .greenborder {
+             border-radius: 5px;
+             border: 2px solid green;
+             padding: 5px;
+             float: left;
+             margin: 20px 0 20px 20px;
+        }
+        .center {
+            clear: both;
+            border-radius: 5px;
+            margin: 0 auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+          }
+          #caption {
+             clear: both;
+             margin: 0 auto;
+          }
+    </style>
+    <title>Title</title>
+</head>
+<body>
+<h2>Get weather by city, coordinates or zip code</h2>
+<div id="weather-by-cityid">
+    <div class="greenborder">
+        <h3>Units</h3>
+         <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="metric" name="units" value="metric" checked>
+            <label class="custom-control-label" for="metric">metric</label>
+        </div>
+        <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="imperial" name="units" value="imperial">
+            <label class="custom-control-label" for="imperial">imperial</label>
+        </div>
+    </div>
+    <div class="withborder">
+        <h3>Please select country and city</h3>
+        <div class="btn-group">
+            <button class="btn btn-info btn-md dropdown-toggle" type="button" id="selcountrybut" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" style="background-color: #588c7e;">
+                Select Country
+            </button>
+            <div class="dropdown-menu" aria-labelledby="selcountrybut" id="selcountry-menu">
+            </div>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-info btn-md dropdown-toggle" type="button" id="selcitybut" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" style="background-color: #588c7e;">
+                Select City
+            </button>
+            <div class="dropdown-menu" aria-labelledby="selcitybut" id="selcity-menu">
+            </div>
+        </div>
+        <div class="btn-group">
+            <button type="button" id="but-get-weather" name="but-get-weather" value="get-weather"
+                    class="btn btn-primary" onclick="getWeather();" disabled>Get Weather
+            </button>
+        </div>
+    </div>
+</div>
+<div id="weather-by-city" class="withborder">
+    <h3>Or input city name</h3>
+    <input type="text" name="city" id="city">
+    <button type="button" name="but-by-city" value="by-city" class="btn btn-primary" onclick="getWeatherByCity()">Get
+        Weather
+    </button>
+</div>
+<div id="weather-by-zip" class="withborder">
+    <h3>Or input zip code (US only)</h3>
+    <input type="text" name="zip" id="zip">
+    <button type="button" name="but-by-zip" value="by-zip" class="btn btn-primary" onclick="getWeatherByZip()">Get
+        Weather
+    </button>
+</div>
+<div id="weather-by-coords" class="withborder">
+    <h3>Or input city coordinates</h3>
+    Latitude: <input type="text" name="lat" id="lat" class="coords">
+    Longitude: <input type="text" name="lon" id="lon" class="coords">
+    <button type="button" name="but-by-coords" value="by-coords" class="btn btn-primary" onclick="getWeatherByCoords()">
+        Get Weather
+    </button>
+</div>
+<h3 id="caption"></h3>
+<div id="result" class="center">
+
+</div>
+</body>
+</html>

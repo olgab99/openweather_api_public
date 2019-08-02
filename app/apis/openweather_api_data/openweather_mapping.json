@@ -1,0 +1,112 @@
+[
+  {
+    "key": "coord",
+    "title": "Coordinates",
+    "fields": [
+      {
+        "key": "lon",
+        "title": "longitude"
+      },
+      {
+        "key": "lat",
+        "title": "latitude"
+      }
+    ]
+  },
+  {
+    "key": "weather",
+    "title": "Weather",
+    "fields": [
+      {
+        "key": "main",
+        "title": "Generally"
+      },
+      {
+        "key": "description",
+        "title": "Description"
+      }
+    ]
+  },
+  {
+    "key": "main",
+    "title": "Weather Details",
+    "fields": [
+      {
+        "key": "temp",
+        "title": "Temperature"
+      },
+      {
+        "key": "pressure",
+        "title": "Atmospheric pressure (on the sea level)"
+      },
+      {
+        "key": "humidity",
+        "title": "Humidity, %"
+      },
+      {
+        "key": "temp_min",
+        "title": "Minimum temperature at the moment"
+      },
+      {
+        "key": "temp_max",
+        "title": "Maximum temperature at the moment"
+      },
+      {
+        "key": "temp_max",
+        "title": "Maximum temperature at the moment"
+      }
+    ]
+  },
+  {
+    "key": "wind",
+    "title": "Wind",
+    "fields": [
+      {
+        "key": "speed",
+        "title": "Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour."
+      },
+      {
+        "key": "deg",
+        "title": "Wind direction, degrees (meteorological)"
+      }
+    ]
+  },
+  {
+    "key": "clouds",
+    "title": "Clouds",
+    "fields": [
+      {
+        "key": "all",
+        "title": "Cloudiness, %"
+      }
+    ]
+  },
+  {
+    "key": "rain",
+    "title": "Rain",
+    "fields": [
+      {
+        "key": "1h",
+        "title": "Rain volume for the last 1 hour, mm"
+      },
+      {
+        "key": "3h",
+        "title": "Rain volume for the last 3 hour, mm"
+      }
+    ]
+  },
+  {
+    "key": "snow",
+    "title": "Snow",
+    "fields": [
+      {
+        "key": "1h",
+        "title": "Snow volume for the last 1 hour, mm"
+      },
+      {
+        "key": "3h",
+        "title": "Snow volume for the last 3 hour, mm"
+      }
+    ]
+  }
+]

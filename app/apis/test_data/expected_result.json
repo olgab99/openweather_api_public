@@ -1,0 +1,105 @@
+[
+  {
+    "data": [
+      {
+        "value": -122.08,
+        "title": "longitude"
+      },
+      {
+        "value": 37.39,
+        "title": "latitude"
+      }
+    ],
+    "category_title": "Coordinates"
+  },
+  {
+    "data": [
+      {
+        "value": "Clear",
+        "title": "Generally"
+      },
+      {
+        "value": "clear sky",
+        "title": "Description"
+      }
+    ],
+    "category_title": "Weather"
+  },
+  {
+    "data": [
+      {
+        "value": 296.71,
+        "title": "Temperature"
+      },
+      {
+        "value": 1013,
+        "title": "Atmospheric pressure (on the sea level)"
+      },
+      {
+        "value": 53,
+        "title": "Humidity, %"
+      },
+      {
+        "value": 294.82,
+        "title": "Minimum temperature at the moment"
+      },
+      {
+        "value": 298.71,
+        "title": "Maximum temperature at the moment"
+      },
+      {
+        "value": 298.71,
+        "title": "Maximum temperature at the moment"
+      }
+    ],
+    "category_title": "Weather Details"
+  },
+  {
+    "data": [
+      {
+        "value": 1.5,
+        "title": "Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour."
+      },
+      {
+        "value": 350,
+        "title": "Wind direction, degrees (meteorological)"
+      }
+    ],
+    "category_title": "Wind"
+  },
+  {
+    "data": [
+      {
+        "value": 1,
+        "title": "Cloudiness, %"
+      }
+    ],
+    "category_title": "Clouds"
+  },
+  {
+    "data": [
+      {
+        "value": 3,
+        "title": "Rain volume for the last 1 hour, mm"
+      },
+      {
+        "value": 5,
+        "title": "Rain volume for the last 3 hour, mm"
+      }
+    ],
+    "category_title": "Rain"
+  },
+  {
+    "data": [
+      {
+        "value": 1,
+        "title": "Snow volume for the last 1 hour, mm"
+      },
+      {
+        "value": 2,
+        "title": "Snow volume for the last 3 hour, mm"
+      }
+    ],
+    "category_title": "Snow"
+  }
+]
