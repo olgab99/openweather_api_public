@@ -1,5 +1,7 @@
-OpenWeather
+This is an example of client for OpenWeather API (https://openweathermap.org/) free-tie service
 =========
+
+The code is written in Python 2.7 with using Flask library and Bootstrap for HTML front end.
 
 Installation
 ------------
