@@ -25,7 +25,17 @@ To run the server use the following command:
      * Running on http://127.0.0.1:5000/
      * Restarting with reloader
      
-To run the front-end - open file frontend/weather.html in your browser
+To run the front-end:
+ HTML front-end:
+ - open file frontend/weather.html in your browser
+ 
+ ReactJS front end:
+ - cd to react_frontend directory,
+ then: 
+ ```commandline
+npm install
+npm start
+```
 
 Notes:
 in weather.js file SERVER_URL set to deault localhost backend URL - replace if you use different server url  
