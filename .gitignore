@@ -45,3 +45,6 @@ venv/
 
 # assets
 assets/
+
+# node
+node_modules
