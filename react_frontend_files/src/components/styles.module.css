@@ -1,0 +1,82 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.topDiv {
+  clear: both;
+  margin-bottom: 20px;
+}
+.divider {
+  clear: both;
+}
+.units {
+    float: left;
+    padding: 0 10px 4px 10px;   
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blueviolet; 
+    border-width: 2px;
+  }
+  .selectBox {
+    float: left;
+    padding: 0 10px 4px 10px;   
+    margin: 0 20px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blueviolet; 
+    border-width: 2px;
+    width: 300px;
+  }
+  .selectCtrl {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;    
+  }
+  .padLeft {
+    padding: 0 0 0 20px;    
+  }
+  .titleTxt {
+    color: darkblue;
+  }
+  .weatherDisplay {
+    clear: both;
+    margin: 20px 0 0 40px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blueviolet; 
+    border-width: 2px;
+    max-width: 400px;
+  }
+  .input {
+    width: 150px;
+    height: 20px;
+    display: inline-block;
+    padding: 2px 4px;
+    margin: 10px 0 0 10px;
+    border-style: solid;
+    border-color: blueviolet; 
+    border-width: 1px;
+  }
+  .button {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
+    background: lightseagreen;
+    cursor: pointer;
+   }
+   .lbldiv {
+    float: left;  
+    margin-top: 10px;
+
+   }
+   
